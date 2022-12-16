@@ -1,0 +1,3 @@
+D:/tcw/junior/first/machine learning/build/CMakeFiles/hw1.dir
+D:/tcw/junior/first/machine learning/build/CMakeFiles/edit_cache.dir
+D:/tcw/junior/first/machine learning/build/CMakeFiles/rebuild_cache.dir
