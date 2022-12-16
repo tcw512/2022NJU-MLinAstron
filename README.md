@@ -26,7 +26,7 @@ $$pix = 255 \frac{pix - min}{max - min} $$
 
 ### 二、程序流程图
 
-```flow 
+```C
 st=>start: 开始
 op=>operation: 读取BMP文件
 cond=>condition: Yes or No?
@@ -161,21 +161,21 @@ next->nnext->op1->nnnext->nnnnext->e
 #### 1.C语言程序结果图
 <table>
     <tr>
-        <td ><center><img src="result/Highpass.bmp">图1  理想高通</center></td>
+        <td ><center><img src="result/HighPass.bmp">图1  理想高通</center></td>
         <td ><center><img src="verify/cv2h.bmp" >图2 OpenCV</center></td>
         <td ><center><img src="verify/matlibhigh.bmp" >图2 Matlib高通</center></td>
     </tr>
 </table>
 <table>
     <tr>
-        <td ><center><img src="result/Lowpass.bmp">图1  巴特沃斯低通</center></td>
+        <td ><center><img src="result/LowPass.bmp">图1  巴特沃斯低通</center></td>
         <td ><center><img src="verify/cv2l.bmp" >图2 OpenCV验证</center></td>
         <td ><center><img src="verify/matliblow.bmp" >图2 Matlib验证</center></td>
     </tr>
 </table>
 <table>
     <tr>
-        <td ><center><img src="result/Bandpass.bmp">图1  高斯带通</center></td>
+        <td ><center><img src="result/BandPass.bmp">图1  高斯带通</center></td>
         <td ><center><img src="verify/cv2b.bmp" >图2 OpenCV验证</center></td>
         <td ><center><img src="verify/matlibband.bmp" >图2 Matlib验证</center></td>
     </tr>
